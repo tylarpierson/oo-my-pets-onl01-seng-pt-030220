@@ -28,6 +28,6 @@ class Owner
   end 
   
   def cats 
-    @pets[:cats] << Cat.new  
+    @pets[:cats] << Cat   
   end 
 end 
