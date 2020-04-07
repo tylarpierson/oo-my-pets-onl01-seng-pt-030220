@@ -30,4 +30,5 @@ class Owner
   def cats 
       
   end 
+  def buy
 end 
