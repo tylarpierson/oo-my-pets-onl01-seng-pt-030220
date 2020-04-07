@@ -30,5 +30,6 @@ class Owner
   def cats 
       
   end 
-  def buy
+  def buy_cat(name_of_cat)
+    
 end 
