@@ -8,7 +8,7 @@ class Owner
     @name = name
     @species = "human"
     @@all << self
-    @pets = {:dogs => [], :cats => []}
+    @pets = []
   end 
   
   def say_species
@@ -28,6 +28,6 @@ class Owner
   end 
   
   def cats 
-    @pets[:cats] 
+    @pets << cats 
   end 
 end 
